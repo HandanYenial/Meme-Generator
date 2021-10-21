@@ -1,0 +1,120 @@
+/* styles.css */
+
+body{
+  background-color:lightskyblue;
+  font-size: 15px;
+}
+/*img{
+border-style:solid;
+border-color:black;
+padding:1em;
+margin:10px 10px 10px 10px;
+
+}*/
+
+.card {
+  margin: auto;
+  width: 60%;
+  border: 3px solid black;
+  padding: 10px;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-right: 250px;
+  
+  
+}
+.title{
+ 
+  font-size:18px;
+  font-style:normal;
+  text-align:center;
+
+}
+
+h3{
+  border-bottom:solid;
+  border-top:solid;
+  border-right: solid;
+  border-left:solid;
+  border-color:black;
+  font-size:18px;
+  font-style:normal
+}
+
+.tiles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tile {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  border: 8px solid peachpuff;
+  background-color: peachpuff;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80");
+}
+
+.img-2 {
+  background-image: url("https://images.unsplash.com/photo-1563823251941-b9989d1e8d97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGxlZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+.img-3 {
+  background-image: url("https://images.unsplash.com/photo-1610483178766-8092d96033f3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGxlZ298ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.caption {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  transition: top 0.6s;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.tile:hover .caption {
+  top: 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  margin: 50px auto;
+  display: block;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #115ba2;
+}
